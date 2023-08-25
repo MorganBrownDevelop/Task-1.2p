@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript | Methods</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="header">
+            <h1>Javascript - Methods</h1>
+            <div class="search_filter">
+                <label for="searchbar">Method <strong><em>Type</em></strong></label>
+                <input type="text" name="searchbar" id="searchbar" placeholder="Enter Method Type">
+            </div>
+        </div>
+
+        <!-- Javascript String Methods START!! -->
+        <div class="method_block">
+            <h2>Method - <strong><em>replace()</em></strong></h2>
+            <hr>
+            <h3>String Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = 225</p></li>
+                <li><p>text = "12345"</p></li>
+                <li><p>newText = text.replace("12345", value)</p></li>
+                <li><p>element.textContent = element.textContent + " text was " + text + " now it is " + newText</p></li>
+                <li><p id="replace" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>replaceAll()</em></strong></h2>
+            <hr>
+            <h3>String Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = 225</p></li>
+                <li><p>text = "12345 45645 12345 dvevv 12345"</p></li>
+                <li><p>newText = text.replaceAll("12345", value)</p></li>
+                <li><p>element.textContent = element.textContent + " text was " + text + " now it is " + newText</p></li>
+                <li><p id="replaceAll" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>toUpperCase()</em></strong></h2>
+            <hr>
+            <h3>String Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = "mjx"</p></li>
+                <li><p>element = document.getElementById("toUpperCase")</p></li>
+                <li><p>element.textContent = element.textContent + value.toUpperCase()</p></li>
+                <li><p id="toUpperCase" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>toLowerCase()</em></strong></h2>
+            <hr>
+            <h3>String Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = "MJX"</p></li>
+                <li><p>element = document.getElementById("toLowerCase")</p></li>
+                <li><p>element.textContent = element.textContent + value.toUpperCase()</p></li>
+                <li><p id="toLowerCase" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>concat()</em></strong></h2>
+            <hr>
+            <h3>String Method</h3>
+            <hr>
+            <ul>
+                <li><p>text = "Hello"</p></li>
+                <li><p>newText = "World!"</p></li>
+                <li><p>value = text.concat(" ", newText)</p></li>
+                <li><p>element = document.getElementById("concat")</p></li>
+                <li><p>element.textContent = element.textContent + value</p></li>
+                <li><p id="concat" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <!-- Javascript String Methods END!! -->
+
+        <!-- Javascript Number Methods START!! -->
+        <div class="method_block">
+            <h2>Method - <strong><em>tostring()</em></strong></h2>
+            <hr>
+            <h3>Number Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = 225</p></li>
+                <li><p>element = document.getElementById("tostring")</p></li>
+                <li><p>element.textContent = element.textContent + value.toString()</p></li>
+                <li><p id="tostring" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>parseInt()</em></strong></h2>
+            <hr>
+            <h3>Number Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = "5"</p></li>
+                <li><p>element = document.getElementById("parseInt")</p></li>
+                <li><p>element.textContent = parseInt(y)</p></li>
+                <li><p id="parseInt" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>toExponential()</em></strong></h2>
+            <hr>
+            <h3>Number Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = 5.343</p></li>
+                <li><p>element = document.getElementById("toExponential")</p></li>
+                <li><p>element.textContent = element.textContent + value.toExponential(5)</p></li>
+                <li><p id="toExponential" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>toFixed()</em></strong></h2>
+            <hr>
+            <h3>Number Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = 5.343</p></li>
+                <li><p>element = document.getElementById("toFixed")</p></li>
+                <li><p>element.textContent = element.textContent + value.toFixed(2)</p></li>
+                <li><p id="toFixed" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>toPrecision()</em></strong></h2>
+            <hr>
+            <h3>Number Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = 5.343</p></li>
+                <li><p>element = document.getElementById("toPrecision")</p></li>
+                <li><p>element.textContent = element.textContent + value.toPrecision(5)</p></li>
+                <li><p id="toPrecision" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <!-- Javascript Number Methods END!! -->
+
+        <!-- Javascript Array Methods START!! -->
+        <div class="method_block">
+            <h2>Method - <strong><em>array.length</em></strong></h2>
+            <hr>
+            <h3>Array Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = ["Test1", "Test2", "Test3", "Test4", "Test5"]</p></li>
+                <li><p>element = document.getElementById("arrayLength")</p></li>
+                <li><p>element.textContent = element.textContent + value.length</p></li>
+                <li><p id="arrayLength" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>array.pop()</em></strong></h2>
+            <hr>
+            <h3>Array Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = ["Test1", "Test2", "Test3", "Test4", "Test5"]</p></li>
+                <li><p>element = document.getElementById("pop")</p></li>
+                <li><p>value.pop()</p></li>
+                <li><p>element.textContent = element.textContent + value</p></li>
+                <li><p id="pop" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>array.push()</em></strong></h2>
+            <hr>
+            <h3>Array Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = ["Test1", "Test2", "Test3", "Test4", "Test5"]</p></li>
+                <li><p>element = document.getElementById("push")</p></li>
+                <li><p>value.push("Test6")</p></li>
+                <li><p>element.textContent = element.textContent + value</p></li>
+                <li><p id="push" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>array.shift()</em></strong></h2>
+            <hr>
+            <h3>Array Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = ["Test1", "Test2", "Test3", "Test4", "Test5"]</p></li>
+                <li><p>element = document.getElementById("shift")</p></li>
+                <li><p>value = value.shift()</p></li>
+                <li><p>element.textContent = element.textContent + value</p></li>
+                <li><p id="shift" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>array.unshift()</em></strong></h2>
+            <hr>
+            <h3>Array Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = ["Test1", "Test2", "Test3", "Test4", "Test5"]</p></li>
+                <li><p>element = document.getElementById("unshift")</p></li>
+                <li><p>value = value.unshift("Test0")</p></li>
+                <li><p>element.textContent = element.textContent + value</p></li>
+                <li><p id="unshift" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <!-- Javascript Array Methods END!! -->
+
+        <!-- Javascript Date Methods START!! -->
+        <div class="method_block">
+            <h2>Method - <strong><em>new Date(year, month)</em></strong></h2>
+            <hr>
+            <h3>Date Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = new Date(2018, 11)</p></li>
+                <li><p>element = document.getElementById("yearMonth")</p></li>
+                <li><p>element.textContent = element.textContent + value</p></li>
+                <li><p id="yearMonth" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>new Date(year, month, day)</em></strong></h2>
+            <hr>
+            <h3>Date Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = new Date(2018, 11, 2)</p></li>
+                <li><p>element = document.getElementById("yearMonthDay")</p></li>
+                <li><p>element.textContent = element.textContent + value</p></li>
+                <li><p id="yearMonthDay" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>new Date(24 * 60 * 60 * 1000)</em></strong></h2>
+            <hr>
+            <h3>Date Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = new Date(24 * 60 * 60 * 1000)</p></li>
+                <li><p>element = document.getElementById("24hourTime")</p></li>
+                <li><p>element.textContent = element.textContent + value</p></li>
+                <li><p id="24hourTime" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <!-- Javascript Date Methods END!! -->
+
+        <!-- Javascript Function Methods START!! -->
+        <div class="method_block">
+            <h2>Method - <strong><em>Basic Function</em></strong></h2>
+            <hr>
+            <h3>Function Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = writeWelcomeMessage()</p></li>
+                <li><p>function writeWelcomeMessage()
+                    {
+                        newText = " Good job on your search!"
+                    
+                        return newText
+                    }</p></li>
+                <li><p>element.textContent = value</p></li>
+                <li><p id="basicFunction" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <div class="method_block">
+            <h2>Method - <strong><em>Arrow Function</em></strong></h2>
+            <hr>
+            <h3>Function Method</h3>
+            <hr>
+            <ul>
+                <li><p>value = () => {return " Arrow Function!"}</p></li>
+                <li><p>element.textContent = value</p></li>
+                <li><p id="arrowFunction" class="value">Value: </p></li>
+            </ul>
+        </div>
+        <!-- Javascript Function Methods END!! -->
+    </section>
+    <script src="/assets/js/methods.js"></script>
+    <script src="/assets/js/interactions.js"></script>
+</body>
+</html>
